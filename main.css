@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Permanent+Marker&family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --first-color:rgb(6, 6, 109);
+    --second-color:rgb(254, 165, 0);
+    --last-color:rgb(209, 153, 49);
+
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: relative;
+    width:100%;
+    height: 83px;
+}
+nav{
+    height:83px ;
+    width: 100%;
+    padding: 20px 0;
+}
+.Eng{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-family: 'permanent permanent',cursive;
+}
+.Eng-text{
+    color: var(--second-color);
+}
+.navigation-bar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation-bar ul li{
+    display: inline-block;
+    margin:0px 25px;
+}
+.navigation-bar ul li:last-child{
+    margin-right: 0px;
+}
+.navigation-bar ul li a{
+    color:black;.
+    font-size: 16px;
+    font-weight: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.navigation-bar ul li a:hover{
+    color: var(--second-color);
+    border-bottom: 1px solid var(--last-color);
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 28px;
+    color: black;
+    background-color: var(--last-color);
+    border-radius: 5px;
+    font-weight: normal;
+    font-weight: 600;
+}
+.navigation-bar ul li a.btn:hover{
+    background-color: var(--last-color);
+    color: #fff;
+}
+.barger{
+    width: 25px;
+    display: none;
+    cursor: pointer;
+}
+.barger span{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 3px;
+    display: block;
+    background-color: var(--last-color);
+    color: black;
+    
+}
